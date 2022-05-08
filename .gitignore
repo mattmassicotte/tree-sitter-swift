@@ -1,6 +1,6 @@
 node_modules
-/src/*
-!/src/scanner.c
+/src/grammar.json
+/src/node-types.json
 *.swp
 /build
 /test
@@ -13,3 +13,4 @@ Cargo.lock
 bindings/c/*.h
 bindings/c/tree-sitter-*.pc
 .vscode/
+/.build
